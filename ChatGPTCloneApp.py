@@ -10,7 +10,7 @@ import gradio as gr
 
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 
-openai.api_key = "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"
+openai.api_key = "xxxxx"
 
 start_sequence = "\nAI:"
 restart_sequence = "\nHuman: "
@@ -62,13 +62,13 @@ block.launch(debug = True, share=True)
 # In[3]:
 
 
-#pip install openai
+pip install openai
 
 
 # In[4]:
 
 
-#pip install gradio
+pip install gradio
 
 
 # In[ ]:
